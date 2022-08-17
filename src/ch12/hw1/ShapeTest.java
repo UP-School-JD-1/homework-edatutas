@@ -47,7 +47,7 @@ public class ShapeTest {
 		square1.erase();
 		System.out.println("Square1 hashCode = " +square1.hashCode() );
 		System.out.println("Square2 hashCode = " +square2.hashCode() );
-		System.out.println("Square1 and Square2 are equals = " +square1.equals(square2));
+		System.out.println("Square1 and Square2 are equals  = " +square1.equals(square2));
 		System.out.println(square1.toString());
 		System.out.println(square2.toString());
 		
