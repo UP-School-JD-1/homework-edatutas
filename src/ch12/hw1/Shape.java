@@ -25,7 +25,7 @@ public class Shape {
 	
 	
 	void erase() {
-		System.out.println("Erasing\n\n");
+		System.out.println("Erasing \n\n");
 	}
 	
 	
