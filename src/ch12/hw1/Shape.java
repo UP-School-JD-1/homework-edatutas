@@ -19,7 +19,7 @@ public class Shape {
 
 
 	void draw() {
-		System.out.println("\n\n*************************    " + name + "    *************************");
+		System.out.println("\n\n*************************    " +  name +  "    *************************");
 		
 	}
 	
