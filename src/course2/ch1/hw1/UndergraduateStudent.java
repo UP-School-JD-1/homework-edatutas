@@ -1,27 +1,26 @@
 package course2.ch1.hw1;
+
 import java.util.Date;
 
 public class UndergraduateStudent extends Student {
 
 	String minor;
-	
-	UndergraduateStudent(int no,String name,int year, Date dob , String major,String minor){
-		super(no,name,year,dob,major);
-	
 
-		this.minor=minor;
+	UndergraduateStudent(int no, String name, int year, Date dob, String major, String minor) {
+		super(no, name, year, dob, major);
+
+		this.minor = minor;
 	}
-	
-	
+
 	@Override
 	public void study() {
-        System.out.println("Undergraduate student is studying..");
-    }
+		System.out.println("Undergraduate student is studying..");
+	}
 
 	@Override
-    public void register() {
-        System.out.println("Undergraduate student is registering..");
-    }
+	public void register() {
+		System.out.println("Undergraduate student is registering..");
+	}
 
 	@Override
 	public String toString() {
