@@ -13,14 +13,13 @@ public class TestRegistrationOffice {
 
 		System.out.println("\n\n****************** GraduateStudent ***************************");
 		Student student1 = new GraduateStudent(12, "Eda ", 1997, new Date(), "CE", "Ayşe", "Java");
-		
+
 		if (student1 instanceof GraduateStudent) {
 			System.out.println("Student 1 graduateStudent : " + student1.getName());
 			GraduateStudent graduateStudent1 = (GraduateStudent) student1;
 			System.out.println(graduateStudent1.toString());
 		}
-		
-		
+
 		System.out.println("\n\n****************** MasterStudent ***************************");
 
 		Student student2 = new GraduateStudent(17, "Enes ", 1997, new Date(), "CE", "Eda", "Java");
@@ -53,9 +52,7 @@ public class TestRegistrationOffice {
 		} else
 			System.out.println(student4.getName() + "Student 4 isn't PhD Student ");
 		System.out.println();
-		
-		
-		
+
 		System.out.println("\n\n****************** VocationalStudent ***************************");
 
 		Student student5 = new VocationalStudent(56, "Nazan", 1997, new Date(), "Hukuk");

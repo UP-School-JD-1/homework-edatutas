@@ -1,4 +1,5 @@
 package course2.ch2.hw1;
+
 import java.util.Date;
 
 public abstract class Student {
@@ -17,15 +18,15 @@ public abstract class Student {
 		this.major = major;
 	}
 
-	public abstract void study() ;
+	public abstract void study();
 
-	public abstract void register(); 
-	
+	public abstract void register();
+
 	@Override
 	public String toString() {
 		return "Student [no=" + no + ", name=" + name + ", year=" + year + ", major=" + major + "]";
 	}
-	
+
 	public int getNo() {
 		return no;
 	}
@@ -65,9 +66,5 @@ public abstract class Student {
 	public void setMajor(String major) {
 		this.major = major;
 	}
-
-	
-
-	
 
 }

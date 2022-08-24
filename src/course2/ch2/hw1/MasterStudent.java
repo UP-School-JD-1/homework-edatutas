@@ -10,22 +10,22 @@ public class MasterStudent extends GraduateStudent {
 
 	@Override
 	public void study() {
-		System.out.println("Master Student : " + name  + "is studying");
+		System.out.println("Master Student : " + name + "is studying");
 	}
 
 	@Override
 	public void register() {
-		System.out.println("Master Student : " + name  + "is registering");
+		System.out.println("Master Student : " + name + "is registering");
 	}
 
 	@Override
 	public void writeThesis() {
-		System.out.println("Master Student : " + name  + "is write thesis");
+		System.out.println("Master Student : " + name + "is write thesis");
 	}
 
 	@Override
 	public void meetWithAdvisor() {
-		System.out.println("Master Student : " + name  + "is meet with advisor");
+		System.out.println("Master Student : " + name + "is meet with advisor");
 	}
 
 	@Override
@@ -34,8 +34,4 @@ public class MasterStudent extends GraduateStudent {
 				+ year + ", dob=" + dob + ", major=" + major + "]";
 	}
 
-	
-	}
-
-	
-
+}

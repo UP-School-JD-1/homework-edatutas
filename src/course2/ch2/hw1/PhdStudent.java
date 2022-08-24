@@ -12,14 +12,10 @@ public class PhdStudent extends GraduateStudent {
 		this.qualifyingExamTaken = qualifyingExamTaken;
 	}
 
-	
-	
 	@Override
 	public String toString() {
 		return "PhdStudent [qualifyingExamTaken=" + qualifyingExamTaken + "]";
 	}
-
-
 
 	@Override
 	public void study() {
@@ -44,6 +40,5 @@ public class PhdStudent extends GraduateStudent {
 	public void writePaper() {
 		System.out.println("PhDStudent is write paper");
 	}
-	
-	
+
 }
