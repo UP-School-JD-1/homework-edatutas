@@ -1,7 +1,7 @@
 package course2.ch5.hw1;
 
 public class Director extends Manager {
-	protected double bonus;
+	protected double bonus ;
 
 	public Director(int no, String name, int year, String workingDepartment, String managingDepartment, double bonus,
 			double calculateSalary) {
