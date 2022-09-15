@@ -11,7 +11,6 @@ public class Test {
 
 		try {
 			payrollOffice.paySalary(employee1);
-			System.out.println("employee : " + employee1);
 		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 
@@ -23,7 +22,6 @@ public class Test {
 
 		try {
 			payrollOffice.paySalary(employee2);
-			System.out.println("employee : " + employee2);
 		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 
@@ -35,7 +33,6 @@ public class Test {
 
 		try {
 			payrollOffice.paySalary(employee3);
-			System.out.println("employee : " + employee3);
 		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 
@@ -45,7 +42,6 @@ public class Test {
 		Employee employee4 = hr.getAnEmployee();
 		try {
 			payrollOffice.paySalary(employee4);
-			System.out.println("employee : " + employee4);
 		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 
