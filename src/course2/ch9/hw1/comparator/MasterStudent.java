@@ -1,0 +1,31 @@
+package course2.ch9.hw1.comparator;
+
+import java.util.Date;
+
+public class MasterStudent extends GraduateStudent {
+
+	MasterStudent(int no, String name, int year, Date dob, String major, String advisor, String thesis) {
+		super(no, name, year, dob, major, advisor, thesis);
+	}
+
+	@Override
+	public void study() {
+		System.out.println("Master Student : " + name + "is studying");
+	}
+
+	@Override
+	public void register() {
+		System.out.println("Master Student : " + name + "is registering");
+	}
+
+	@Override
+	public void writeThesis() {
+		System.out.println("Master Student : " + name + "is write thesis");
+	}
+
+	@Override
+	public void meetWithAdvisor() {
+		System.out.println("Master Student : " + name + "is meet with advisor");
+	}
+
+}
